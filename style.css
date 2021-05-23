@@ -1,0 +1,226 @@
+/* ---- Page d'acceuil ---- */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, sans-serif; 
+}
+
+h1 {
+    
+    text-align: center;
+}
+
+.button {
+  
+  background-color: #FD5068; 
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: 25px;
+  transition: 0.25s;
+  cursor: pointer;
+} 
+
+.button:hover {
+  background-color: #05B2C8;
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+header{
+	margin: 0px;
+	padding: 0px;
+	background-color: #24252A;
+	display: flex;
+	align-items: center;
+	padding: 10px 10%;
+	margin-bottom: 8vh;
+	font-size: 13px;
+	color: white;
+}
+header p{
+	font-family: Times New Roman;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.a_header {
+  color: white;
+  text-decoration: none;
+}
+
+nav{
+	list-style: none;
+  color: white;
+}
+
+nav li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+
+.container {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+
+}
+
+.theme {
+
+	width: 30%;
+	text-align:center;
+	padding: 25px;
+	background-color: white;
+	margin: 20px;
+	border-radius: 15px;
+	box-shadow: 0 0 6px 0 #999;
+}
+
+.theme p {
+
+	margin-bottom: 10vh;
+}
+
+body 
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* --- Section Sondage --- */
+
+.h1_question {
+    text-align: center;
+}
+
+#button_question
+{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    background-color: white;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+}
+.a_question 
+{
+    text-decoration: none;
+    color: #555;
+    line-height: 25px;
+}
+#container_question 
+{
+    width:50%;
+    margin: 10vh auto;
+    padding: 50px 30px;
+    background-color: #3f51b5;
+    border-radius:3px;
+    color: #fff;
+    box-shadow: 0 0 10px 0 #999;
+}
+.ul_question 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+.li_question
+{
+    background: #223394;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block; 
+}
+
+
+.container_question {
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+
+}
+
+/*--- Section Connexion/Inscrciption ---*/
+
+.lien_connexion{
+  color: black;
+}
+
+  
+.bodyConnexion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.connexionForm{
+  width: 300px;
+  padding: 30px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 6px 0 #999;
+}
+
+.connexionForm h1 {
+  font-weight: 500;
+}
+
+.inputConnexion {
+  display: block;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px 10px;
+  width: 270px;
+  transition: 0.30s;
+}
+
+.inputEnvoie {
+  display: block;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px 10px;
+  width: 290px;
+  transition: 0.30s;
+  background-color: #FD5068;
+  color: white;
+}
+
+.inputEnvoie:hover {
+  background-color: #05B2C8;
+}
+
+.pb {
+  color: red;
+}
+
+/* ---- Section compte utiliateur | Tesnim 25/05 --- */
+
+.donnee_utilisateur {
+  margin: 15px;
+  text-align: left;
+}
+
+.themeCompte {
+  width: 30%;
+  text-align:center;
+  padding: 25px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 6px 0 #999;
+}
